@@ -491,7 +491,14 @@ public class PelconnerCameraActivity extends PelconnerActivity implements OnDism
 		// Try to open the Camera
 		try
 		{
+			int numOfCams = Camera.getNumberOfCameras();
 			_camera = Camera.open();
+			if(_camera == null) {
+	    		Toast.makeText(this, R.string.camera_unavailable, Toast.LENGTH_LONG).show();
+	    		setResult(RESULT_CANCELED);
+	    		finish();
+	    		return;
+			}
 		}
     	catch(RuntimeException e)
     	{
