@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/camera_menu_item_snapshot"
+		android:title="@string/camera_snapshot"/>
+	<item android:id="@+id/camera_menu_item_cancel"
+		android:title="@string/camera_cancel"/>
+	<item android:id="@+id/camera_menu_item_help"
+		android:title="@string/camera_help"/>	
+</menu>

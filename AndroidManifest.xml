@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.terrestrial.pelconner"
+      android:versionCode="2"
+      android:versionName="1.1">
+    <application android:icon="@drawable/ic_launcher"
+    	android:label="@string/app_name" 
+    	android:hasCode="true" 
+    	android:enabled="true" 
+    	android:name="Pelconner" 
+    	android:description="@string/app_description">
+        <activity android:label="@string/app_name" android:theme="@android:style/Theme.Translucent" android:name=".PelconnerSplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+				<action android:name="android.intent.action.SEND" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+				<!-- <data android:scheme="file" /> -->
+				<data android:mimeType="image/*"/>
+			</intent-filter> 
+        </activity>
+
+	    <activity android:name=".PelconnerMainActivity"></activity>
+	    <activity android:name=".PelconnerPictureActivity"
+	    	android:configChanges="orientation"
+	    	android:screenOrientation="portrait" android:multiprocess="true"/>    	
+	    <activity 
+	    	android:name=".PelconnerCameraActivity"
+	    	android:configChanges="orientation"/>
+	    <activity android:name=".PelconnerGalleryActivity"></activity>
+	    <activity android:name=".PelconnerHelpActivity"></activity>
+	    <activity 
+	    	android:name=".PelconnerSaveActivity" 
+	    	android:theme="@android:style/Theme.Translucent"/>
+	</application>
+<uses-sdk android:minSdkVersion="8" />
+
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.CAMERA" />
+
+<uses-feature android:name="android.hardware.camera" />
+<uses-feature android:name="android.hardware.camera.autofocus" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest> 

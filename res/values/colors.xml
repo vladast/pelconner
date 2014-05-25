@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dialog_title">#dadada</color>
+	<color name="activity_picture_background">#dadada</color>
+	<color name="activity_gallery_background">#C8F9EFFD</color>
+	<color name="activity_gallery_thumbnail_background">#ffffff</color>
+	<color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:background="#FAF0FF">
+  
+  	<FrameLayout
+		android:id="@+id/frameLayoutColor"
+		android:layout_width="fill_parent"
+		android:layout_height="60dip"
+		android:layout_alignParentTop="true">
+		<ImageView
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:src="@drawable/ic_option_dialog_header_rounded"
+			android:scaleType="fitXY"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|left"
+			android:layout_marginLeft="15dip"
+			android:text="@string/dialog_title_nosdcard"
+			android:textColor="#545454"
+			android:textStyle="bold"
+			android:textSize="30dip"/>
+	</FrameLayout>
+	
+	<!-- Title -->
+	<!-- 
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="@string/dialog_title_nosdcard"/>
+	-->	
+	
+	<!-- Body -->
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:layout_gravity="center"
+	  android:orientation="vertical">
+	  <LinearLayout
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:orientation="vertical">
+	  	<LinearLayout
+		  	android:layout_width="wrap_content"
+		  	android:layout_height="wrap_content"
+		  	android:orientation="horizontal">
+			<ImageView
+			  	android:layout_width="wrap_content"
+			  	android:layout_height="wrap_content"
+			  	android:src="@drawable/ic_sdcard"
+			  	android:layout_gravity="center"
+			  	android:layout_marginTop="10dip"
+			  	android:layout_marginBottom="10dip"
+			  	android:layout_marginLeft="20dip"/>
+		  	<TextView
+		  		android:id="@+id/textViewNosdcard"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:lines="3"
+				android:text="@string/dialog_text_nosdcard"
+				android:layout_marginTop="20dip"
+				android:layout_marginLeft="20dip"
+				android:layout_marginBottom="15dip"/>
+	  	</LinearLayout>
+	  </LinearLayout>
+	</LinearLayout>
+		<Button
+			android:id="@+id/buttonNosdcardQuit"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:drawableRight="@drawable/ic_menu_quit"
+			android:text="@string/quit"/>
+</LinearLayout>
+

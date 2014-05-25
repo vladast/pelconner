@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#bdbdbd">
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+	
+		<!-- TextView for padding purposes -->
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="10dip"/>
+		
+		<!-- Thumbnail view -->
+	
+		<Gallery 
+				android:id="@+id/gallery"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top"/>
+		<FrameLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<ImageView
+				android:id="@+id/imageViewDisplay"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:scaleType="centerInside"/>
+			<TextView
+				android:id="@+id/textViewInfo"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|left"/>
+			<Button
+				android:id="@+id/buttonImport"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/gallery_button_import_margin"
+				android:layout_gravity="bottom|right"
+				android:background="@drawable/button_import"/>
+		</FrameLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello Wereld, SplashActivity!</string>
+    <string name="app_name">Pelconner</string>
+    <string name="app_description">Beeld bewerking toepassing</string>
+    <string name="new_picture_short">Nieuwe</string>
+    <string name="new_picture">Nieuwe Beeld</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Galerij</string>
+    <string name="info">Info</string>
+    <string name="about">Over</string>
+    <string name="help">Hulp</string>
+    <string name="quit">Verlaten</string>
+    
+    <!-- Generic Alert Dialog -->
+    <string name="dialog_title_default">Niet Instellen</string>
+    <string name="dialog_title_shutdown">Stillegging</string>
+    <string name="dialog_title_nosdcard">Geen Media</string>
+    <string name="dialog_text_default">Niet Instellen</string>
+    <string name="dialog_text_shutdown">Ben je zeker?</string>
+    <string name="dialog_text_nosdcard">De toepassing vereist een SD-kaart aanwezig te zijn.Pelconner zal verlaten.</string>
+    
+    <!-- Camera Snapshot Dialog -->
+    <string name="dialog_camera_title">Camera Momentopname </string>
+    <string name="dialog_camera_button_import">Import</string>
+    <string name="dialog_camera_button_save">Opslaan...</string>
+    <string name="dialog_camera_button_share">Delen</string>
+    <string name="dialog_camera_button_cancel">Annuleren</string>
+    
+    <!-- Save/Share Dialog -->
+    <string name="dialog_save_description">Gered van Pelconner</string>
+    <string name="dialog_share_description">Gedeeld van Pelconner</string>
+    <string name="dialog_save_name_title">Naam:</string>
+    <string name="dialog_save_description_title">Beschrijving:</string>
+   	<string name="dialog_save_prompt">Selecteer een foto-formaat</string>
+    
+    <!-- About dialog -->
+    <string name="about_version_text">Versie</string>
+    <string name="about_year">Maart 2011</string>
+    <string name="about_license">Gebracht aan u door Vladast</string>
+    
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Annuleren</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nr</string>
+    <string name="button_import">Import</string>
+    <string name="button_close">Sluit</string>
+	
+	<!-- Text dialog -->
+    <string name="dialog_text_title">Tekst</string>
+    <string name="dialog_text_text">Tekst:</string>
+    <string name="dialog_text_font">Lettertype:</string>
+    <string-array name="dialog_text_fonts">        
+    	<item>Chopin Script</item>
+    	<item>Old Standard TT</item>
+    	<item>Precious</item>
+    	<item>Royal</item>
+    	<item>Wickhop Handwriting</item>
+    </string-array>     
+    <string name="dialog_text_size">Tekst grootte:</string>
+    <string-array name="dialog_text_sizes">        
+    	<item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    	<item>25</item>
+    	<item>30</item>
+    </string-array> 
+    <string name="dialog_text_style">Tekst stijl:</string>
+    <string-array name="dialog_text_styles">        
+    	<item>Normal</item>
+    	<item>Bold</item>
+    	<item>Italic</item>
+    	<item>Bold-Italic</item>
+        <!-- CHECK THIS -->
+    </string-array> 
+    
+    <!-- Color dialog -->
+    <string name="dialog_color_title">Pluk een Kleur</string>
+    <string name="dialog_color_volume">Waarde:</string>
+    <string name="dialog_color_alpha">Transparantie / Alpha</string>
+    
+    <!-- Picture Menu -->
+    <string name="effects">Effecten</string>
+    <string name="tools">Hulpmiddelen</string>
+    <string name="edit">Bewerken</string>
+    <string name="save">Opslaan</string>
+    <string name="share">Delen</string>
+    <string name="more">Meer</string>
+	<!-- Partial Menus -->
+    <string name="picture_done">Gedaan</string>
+    <string name="picture_cancel">Annuleren</string>
+    <string name="picture_color">Kleur</string>
+    <string name="picture_width">Lijndikte</string>
+    <string name="picture_filled">Gevuld</string>
+    <string name="picture_outlined">Geschetste</string>
+    <string name="picture_zoom">Stel Zoom</string>
+    <string name="picture_angle">Hoekinstelling</string>
+    <string name="picture_text">Tekst invoeren</string>
+    
+    <!-- Picture Edit Options -->
+    <string name="import_picture">Import</string>
+    <string name="import_picture_camera">Importeren uit Camera</string>
+    <string name="import_picture_gallery">Importeren uit Galerij</string>
+    <string name="edit_resize">Resize</string>
+    <string name="edit_stretch">Rekken</string>
+    <string name="edit_zoom">Zoom</string>
+    <string name="edit_pinch_zoom">Knijpen Zoom</string>
+    <string name="edit_rotate">Roteer</string>
+    <string name="edit_move">Te verplaatsen</string>
+    <string name="edit_crop">Gewas</string>
+    <string name="edit_text">Tekst</string>
+    
+    <!-- Picture Tools Options -->
+    <string name="tools_fill">Te vullen</string>
+    <string name="tools_rectangle_select">Rechthoekige Selectie</string>
+    <string name="tools_circle_select">Cirkel Selectie</string>
+    <string name="tools_draw">Potlood Tekenen</string>
+    <string name="tools_text">Tekst</string>
+    <string name="tools_rectangle">Rechthoek</string>
+    <string name="tools_ellipse">Ellips</string>
+    <string name="tools_circle">Cirkel</string>
+    <string name="tools_line">Lijn</string>
+    <string name="tools_shake_draw">De Schok Trekt</string>
+    
+    <!-- Picture Advanced Tools -->
+    <string name="tools_adv_color">Kleur</string>
+    <string name="tools_adv_filled_shape">Gevulde Vorm</string>
+    <string name="tools_adv_outlined_shape">Geschetste Vorm</string>
+    
+    <!-- Picture Effects Options -->
+    <string name="effects_transparency">Transparantie</string>
+    <string name="effects_noise">Lawaai</string>
+    <string name="effects_grayscale">Grijswaarden</string>
+    <string name="effects_black_and_white">Zwart en Wit</string>    
+    <string name="effects_saturation">Verzadiging</string>
+    <string name="effects_contrast">Contrast</string>
+    <string name="effects_brightness">Helderheid</string>
+    <string name="effects_negative">Negatieve</string>
+    
+    <!-- Gallery Menu -->
+    <string name="gallery_import">Import</string>
+    <string name="gallery_share">Delen</string>
+    <string name="gallery_cancel">Annuleren</string>
+    <string name="gallery_help">Hulp</string>
+    
+    <!-- Camera Menu -->
+    <string name="camera_snapshot">Neem Momentopname</string>
+    <string name="camera_help">Hulp</string>
+    <string name="camera_cancel">Annuleren</string>
+    
+    <!-- Save Picture -->
+    <string name="save_picture_title">Afbeelding Opslaan Als...</string>
+    <string name="save_picture_name_seed">Pelconner_</string>
+    <string name="save_picture_name">Naam:</string>
+    <string name="save_picture_height">Hoogte:</string>
+    <string name="save_picture_width">Breedte:</string>
+    <string name="save_picture_location">Opslaan Locatie Gegevens</string>
+    <string name="save_picture_format">Formaat:</string>
+    <string name="save_picture_button_save">Opslaan</string>
+    <string name="save_picture_button_cancel">Annuleren</string>
+    <string-array name="save_picture_formats">        
+    	<item>JPEG</item>
+    	<!-- <item>BMP</item> -->
+    	<item>PNG</item>
+    </string-array>    
+    
+    <!-- Content Value Defaults -->
+    <string name="media_description">Gevangen genomen door Pelconner.</string>
+    
+    <!-- Sharing -->
+    <string name="share_image">Aandeel Afbeelding met...</string>
+    
+	<!-- Camera -->
+    <string name="camera_unavailable">Niet om verbinding te Camera service.\nControleer of de camera dienst beschikbaar is.</string>
+    
+    <!-- Help Main -->
+    <string name="help_main_pelconner_overview_title">Pelconner overzicht</string>
+    <string name="help_main_pelconner_overview_body">Pelconner kan worden gebruikt als een eenvoudige tekening applicatie, maar kan worden gebruikt als een tool voor geavanceerde beeldverwerking operaties.\nU kunt gebruik maken Pelconner nieuwe beelden te creëren vanuit het niets, of u kunt bewerken die al degenen die in uw telefoon.\nDaarnaast, Pelconer kan worden gebruikt om de beelden te bewerken opgevangen door ingebouwde camera.\nGecreëerde beelden kunnen worden opgeslagen op het extern geheugen, of gedeeld met andere applicaties op de telefoon, zoals e-mailclient, of een social networking applicatie.</string>
+    <string name="help_main_main_display_title">Hoofd Vertoning</string>
+    <string name="help_main_main_display_body">Hoofddisplay kan de gebruiker snel de gewenste actie te kiezen.\nAldus, biedt het drie opties aan de gebruiker aan:\n1. Maak een nieuwe foto uit het niets,\n2. Vang een beeld met Camera en gebruik het als uitgangspunt voor nieuw beeld,\n3. Selecteer een afbeelding in de Galerij en gebruik het als een startpunt voor nieuwe foto.</string>
+    <string name="help_main_picture_display_title">De Vertoning van het beeld</string>
+    <string name="help_main_picture_display_body">De Vertoning van het beeld is een centraal punt van Pelconner.\nAlle beschikbare opties zijn onderverdeeld in drie categorieën:\n1. Geef uit, bevattend algemene reeks verrichtingen,\n2. Hulpmiddelen, die diverse tekeningshulpmiddelen bevatten,\n3. Effecten, met een reeks van effecten.</string>
+    <string name="help_main_camera_display_title">De Vertoning van de camera</string>
+    <string name="help_main_camera_display_body">Enige doel van Camera Display is het vastleggen van een foto die kan worden ingevoerd voor de verwerking van.\nEvenwel, genomen foto kan worden gedeeld met andere beeldverwerking toepassingen die aanwezig zijn op de telefoon.</string>
+    <string name="help_main_gallery_display_title">De Vertoning van de galerij</string>
+    <string name="help_main_gallery_display_body">Galerie Display is een belangrijke plek om foto\'s gemaakt overzicht.\nZoals met display van de camera,een gebruiker kan ook gebruik maken Gallery foto\'s importeren en deze delen met andere toepassingen.</string>
+    
+    <!-- Help Picture -->
+    <string name="help_picture_edit_title">Bewerken</string>
+    <string name="help_picture_edit_body">Deze categorie bevat algemene set van opties die gebruikt worden om te presteren foto-wise bewerkingen.</string>
+    <string name="help_picture_edit_new_subtitle">Nieuwe Picture</string>
+    <string name="help_picture_edit_new_body">Start nieuwe sessie, het creëren van nieuwe, lege afbeelding.</string>
+    <string name="help_picture_edit_camera_import_subtitle">Importeren uit Camera</string>
+    <string name="help_picture_edit_camera_import_body">Begint Camera display, zodat de gebruiker in staat om een momentopname te nemen en de afbeelding importeren in de huidige sessie.</string>
+    <string name="help_picture_edit_gallery_import_subtitle">Import uit de Galerij</string>
+    <string name="help_picture_edit_gallery_import_body">Begint Gallery display, zodat de gebruiker selecteert u een afbeelding van de telefoon.</string>
+    <string name="help_picture_edit_move_subtitle">Bewegen</string>
+    <string name="help_picture_edit_move_body">Door te schuiven met de vinger, momenteel weergegeven beeld wordt verplaatst naar een nieuwe locatie op het scherm.</string>
+    <string name="help_picture_edit_rotate_subtitle">Roteer</string>
+    <string name="help_picture_edit_rotate_body">Door te schuiven met de vinger, wordt het  momenteel weergegeven beeld wordt geroteerd tegen het midden van het scherm. De hoek is gebaseerd op de positie van de aanvankelijke aanraking en het centrum van het scherm.</string>
+    <string name="help_picture_edit_zoom_subtitle">Zoom</string>
+    <string name="help_picture_edit_zoom_body">Voert inzomen/uitzoomen operatie op de afbeelding.</string>
+    <string name="help_picture_edit_pinch_zoom_subtitle">Snuifje Zoom</string>
+    <string name="help_picture_edit_pinch_zoom_body">Bepaalt de zoom door de afstand tussen twee vingers op het scherm geplaatst.</string>
+    <string name="help_picture_tools_title">Hulpmiddelen</string>
+    <string name="help_picture_tools_body">Deze categorie bevat diverse tekeningshulpmiddelen, die kunnen worden gebruikt om het beeld te verbeteren.\nParameters zoals lijndikte, of kleur, kan worden gewijzigd na het selecteren van bepaalde tool.</string>
+    <string name="help_picture_tools_pencil_draw_subtitle">Potlood teken</string>
+    <string name="help_picture_tools_pencil_draw_body">Door te schuiven met de vinger tegen het scherm, trekt een lijn naar aanleiding van de vinger locatie.</string>
+    <string name="help_picture_tools_line_subtitle">Lijn</string>
+    <string name="help_picture_tools_line_body">Trekt een lijn tussen de begin-en eindpunt van de vinger.</string>
+    <string name="help_picture_tools_text_subtitle">Tekst</string>
+    <string name="help_picture_tools_text_body">Voegt een tekst gemaakt op de top van de momenteel weergegeven beeld. Wanneer geplaatst, kan een locatie van de tekst veranderd worden, door te schuiven met de vinger op het scherm.</string>
+    <string name="help_picture_tools_shake_subtitle">Schudden stellen</string>
+    <string name="help_picture_tools_shake_body">In het geval dat de telefoon passende sensor bevat, versneller, een doorlopende lijn wordt getrokken door schudden van de telefoon in verschillende richtingen</string>
+    <string name="help_picture_tools_rectangle_subtitle">Rechthoek</string>
+    <string name="help_picture_tools_rectangle_body">Op basis van de begin-en eindpunt van de uitgevoerde dia actie, een rechthoek wordt getekend op de top van het weergegeven beeld.</string>
+    <string name="help_picture_tools_circle_subtitle">Cirkel</string>
+    <string name="help_picture_tools_circle_body">Op basis van de begin-en eindpunt van de uitgevoerde dia actie, een cirkel is getrokken op de top van het weergegeven beeld.</string>
+    <string name="help_picture_tools_fill_subtitle">Te vullen</string>
+    <string name="help_picture_tools_fill_body">Vult een scherm met geselecteerde kleur. Om te vullen, de gebruiker hoeft alleen het scherm aanraakt.</string>
+    <string name="help_picture_effects_title">Effecten</string>
+    <string name="help_picture_effects_body">Deze categorie bevat een reeks van effecten gebruikt om het algemene uiterlijk te veranderen.</string>
+    <string name="help_picture_effects_grayscale_subtitle">Grijswaarden</string>
+    <string name="help_picture_effects_grayscale_body">Verwijdert de kleur informatie van het weergegeven beeld.</string>
+    <string name="help_picture_effects_saturation_subtitle">Verzadiging</string>
+    <string name="help_picture_effects_saturation_body">Verandert de verzadiging van het scherm beeld.</string>
+    <string name="help_picture_effects_transparency_subtitle">Transparantie</string>
+    <string name="help_picture_effects_transparency_body">Wijzigingen van de transparantie van het display beeld.</string>
+    <string name="help_picture_effects_contrast_subtitle">Contrast</string>
+    <string name="help_picture_effects_contrast_body">Verandert het contrast van het beeldscherm foto.</string>
+    <string name="help_picture_effects_brightness_subtitle">Helderheid</string>
+    <string name="help_picture_effects_brightness_body">Verandert de helderheid van het display beeld.</string>
+    <string name="help_picture_effects_negative_subtitle">Negatieve</string>
+    <string name="help_picture_effects_negative_body">Toont de beeld negatieve vertegenwoordiging.</string>
+    
+</resources>

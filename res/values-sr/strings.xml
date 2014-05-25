@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">Pelconner</string>
+    <string name="app_description">Program za obradu slika</string>
+    <string name="new_picture_short">Nova</string>
+    <string name="new_picture">Nova Slika</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galerija</string>
+    <string name="info">Info</string>
+    <string name="about">O Pelconner-u</string>
+    <string name="help">Pomoć</string>
+    <string name="quit">Odustani</string>
+    
+    <!-- Generic Alert Dialog -->
+    <string name="dialog_title_default">Nije Postavljeno</string>
+    <string name="dialog_title_shutdown">Isključenje</string>
+    <string name="dialog_title_nosdcard">Nema Medijuma</string>
+    <string name="dialog_text_default">Nije Postavljeno</string>
+    <string name="dialog_text_shutdown">Da li ste sigurni?</string>
+    <string name="dialog_text_nosdcard">SD kartica je obavezna za rad programa. Sledi gašenje Pelconner-a.</string>
+    
+    <!-- Camera Snapshot Dialog -->
+    <string name="dialog_camera_title">Slikanje</string>
+    <string name="dialog_camera_button_import">Import</string>
+    <string name="dialog_camera_button_save">Sačuvaj...</string>
+    <string name="dialog_camera_button_share">Podeli</string>
+    <string name="dialog_camera_button_cancel">Odustani</string>
+    <string name="dialog_save_prompt">Odaberite format slike</string>
+    
+    <!-- Save/Share Dialog -->
+    <string name="dialog_save_description">Sačuvan iz Pelconner-a</string>
+    <string name="dialog_share_description">Podeljen iz Pelconner-a</string>
+    <string name="dialog_save_name_title">Ime:</string>
+    <string name="dialog_save_description_title">Opis:</string>
+    
+    <!-- About dialog -->
+    <string name="about_version_text">Verzija</string>
+    <string name="about_year">Marta 2011.</string>
+    <string name="about_license">Dizajn i implementacija: Vladast</string>
+    
+    <string name="button_ok">U Redu</string>
+    <string name="button_cancel">Odustani</string>
+    <string name="button_yes">Da</string>
+    <string name="button_no">Ne</string>
+    <string name="button_import">Import</string>
+    <string name="button_close">Zatvori</string>
+    
+    <!-- Text dialog -->
+    <string name="dialog_text_title">Tekst</string>
+    <string name="dialog_text_text">Tekst:</string>
+    <string name="dialog_text_font">Slovo:</string>
+    <string-array name="dialog_text_fonts">        
+    	<item>Chopin Script</item>
+    	<item>Old Standard TT</item>
+    	<item>Precious</item>
+    	<item>Royal</item>
+    	<item>Wickhop Handwriting</item>
+    </string-array>     
+    <string name="dialog_text_size">Veličina teksta:</string>
+    <string-array name="dialog_text_sizes">        
+    	<item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    	<item>25</item>
+    	<item>30</item>
+    </string-array> 
+    <string name="dialog_text_style">Stil teksta:</string>
+    <string-array name="dialog_text_styles">        
+    	<item>Normal</item>
+    	<item>Bold</item>
+    	<item>Italic</item>
+    	<item>Bold-Italic</item>
+        <!-- CHECK THIS -->
+    </string-array> 
+    
+    <!-- Color dialog -->
+    <string name="dialog_color_title">Odaberi Boju</string>
+    <string name="dialog_color_volume">Vrednost:</string>
+    <string name="dialog_color_alpha">Transparentnost / Alfa</string>
+    
+    <!-- Picture Menu -->
+    <string name="effects">Efekti</string>
+    <string name="tools">Alati</string>
+    <string name="edit">Uredi</string>
+    <string name="save">Sačuvaj</string>
+    <string name="share">Podeli</string>
+    <string name="more">Dodatno</string>
+    
+    <!-- Partial Menus -->
+    <string name="picture_done">Gotovo</string>
+    <string name="picture_cancel">Odustani</string>
+    <string name="picture_color">Boja</string>
+    <string name="picture_width">Debljina Linije</string>
+    <string name="picture_filled">Popunjen</string>
+    <string name="picture_outlined">Oivičen</string>
+    <string name="picture_zoom">Odabir Uveličanja</string>
+    <string name="picture_angle">Odabir Ugla</string>
+    <string name="picture_text">Unes Teksta</string>
+    
+    <!-- Picture Edit Options -->
+    <string name="import_picture">Import</string>
+    <string name="import_picture_camera">Import sa Kamere</string>
+    <string name="import_picture_gallery">Import iz Galerije</string>
+    <string name="edit_resize">Promena Veličine</string>
+    <string name="edit_stretch">Razvlačenje</string>
+    <string name="edit_zoom">Uveličanje</string>
+    <string name="edit_pinch_zoom">Uveličanje Dodirom</string>
+    <string name="edit_rotate">Rotacija</string>
+    <string name="edit_move">Pomeranje</string>
+    <string name="edit_crop">Isecanje</string>
+    <string name="edit_text">Tekst</string>
+    
+    <!-- Picture Tools Options -->
+    <string name="tools_fill">Popunjavanje</string>
+    <string name="tools_rectangle_select">Pravougaona Selekcija</string>
+    <string name="tools_circle_select">Kružna Selekcija</string>
+    <string name="tools_draw">Crtanje</string>
+    <string name="tools_text">Tekst</string>
+    <string name="tools_rectangle">Pravougaonik</string>
+    <string name="tools_ellipse">Elipsa</string>
+    <string name="tools_circle">Krug</string>
+    <string name="tools_line">Linija</string>
+    <string name="tools_shake_draw">Crtanje Potresom</string>
+    <string name="tools_color_test">COLOR TEST</string>
+    
+    <!-- Picture Advanced Tools -->
+    <string name="tools_adv_color">Boja</string>
+    <string name="tools_adv_filled_shape">Popunjen Objekat</string>
+    <string name="tools_adv_outlined_shape">Oivičen Objekat</string>
+    
+    <!-- Picture Effects Options -->
+    <string name="effects_transparency">Transparentnost</string>
+    <string name="effects_noise">Šum</string>
+    <string name="effects_grayscale">Crno-Bela</string>
+    <string name="effects_black_and_white">Crna i Bela</string>    
+    <string name="effects_saturation">Zasićenje</string>
+    <string name="effects_contrast">Kontrast</string>
+    <string name="effects_brightness">Osvetljenje</string>
+    <string name="effects_negative">Negativ</string>
+    
+    <!-- Gallery Menu -->
+    <string name="gallery_import">Import</string>
+    <string name="gallery_share">Podeli</string>
+    <string name="gallery_cancel">Odustani</string>
+    <string name="gallery_help">Pomoć</string>
+    
+    <!-- Camera Menu -->
+    <string name="camera_snapshot">Slikaj</string>
+    <string name="camera_help">Pomoć</string>
+    <string name="camera_cancel">Odustani</string>
+    
+    <!-- Save Picture -->
+    <string name="save_picture_title">Snimi Sliku kao...</string>
+    <string name="save_picture_name_seed">Pelconner_</string>
+    <string name="save_picture_name">Naziv:</string>
+    <string name="save_picture_height">Visina:</string>
+    <string name="save_picture_width">Širina:</string>
+    <string name="save_picture_location">Sačuvaj Lokaciju</string>
+    <string name="save_picture_format">Format:</string>
+    <string name="save_picture_button_save">Sačuvaj</string>
+    <string name="save_picture_button_cancel">Odustani</string>
+    <string-array name="save_picture_formats">        
+    	<item>JPEG</item>
+    	<!-- <item>BMP</item> -->
+    	<item>PNG</item>
+    </string-array>    
+    
+    <!-- Content Value Defaults -->
+    <string name="media_description">Snimljeno Pelconner-om.</string>
+    
+    <!-- Sharing -->
+    <string name="share_image">Podeli Sliku sa...</string>
+    
+    <!-- Camera -->
+    <string name="camera_unavailable">Nije uspelo povezivanje sa kamerom.\nProverite da li je kamera dostupna.</string>
+    
+    <!-- Help Main -->
+    <string name="help_main_pelconner_overview_title">Ukratko o Pelconner-u</string>
+    <string name="help_main_pelconner_overview_body">Pelconner se može koristiti kao jednostavna aplikacija za crtanje, ali se može koristiti i kao alat za naprednu obradu slika.\nPelconner-om možete kreirati nove slike, a možete i da obradite slike koje su već na vašem telefonu.\nDodatno, Pelconner se može iskoristiti i za obradu slika dobijenih putem ugrađene kamere.\nKreirane slike se mogu sačuvati na spoljnoj memoriji, ili se mogu deliti sa ostalim aplikacijama na telefonu, kao što je mail klijent, ili bilo koja aplikacija društvenih mreža.</string>
+    <string name="help_main_main_display_title">Glavni Ekran</string>
+    <string name="help_main_main_display_body">Glavni Ekran omogućuje jednostavan izbor željene akcije.\nTri opcije su ponuđene korisniku:\n1. Kreiranje nove slike,\n2. Korišćenje slika sa kamere kao osnova za novu sliku,\n3. Biranje već postojećih slika iz Galerije i njihovo korišćenje kao osnova za novu sliku.</string>
+    <string name="help_main_picture_display_title">Radna Površina</string>
+    <string name="help_main_picture_display_body">Radna Površina je centralno mesto Pelconner-a.\nSve dostupne opcije su podeljene u tri kategorije:\n1. Uredi, koja sadrži skup opštih opcija,\n2. Alati, koja sadrži skup opcija za crtanje,\n3. Efekti, koja sadrži skup efekata.</string>
+    <string name="help_main_camera_display_title">Kamera</string>
+    <string name="help_main_camera_display_body">Kamera koja je prilagođena Pelconner-u, može se upotrebiti za slikanje željene scene i importovanje iste kako bi se obradila.\nTakođe, dobijena slika se može i deliti sa ostalim aplikacijama za obradu slika, ukoliko su instalirane.</string>
+    <string name="help_main_gallery_display_title">Galerija</string>
+    <string name="help_main_gallery_display_body">Galerija je ključno mesto za pregled kreiranih slika.\nKao što je slučaj i sa Kamerom, korisnik može odabrati određenu sliku iz Galerije i deliti sa ostalim aplikacijama na telefonu.</string>
+    
+    <!-- Help Picture -->
+    <string name="help_picture_edit_title">Uredi</string>
+    <string name="help_picture_edit_body">Ova kategorija sadrži osnovni skup opcija za izvodene operacija nad slikom.</string>
+    <string name="help_picture_edit_new_subtitle">Nova Slika</string>
+    <string name="help_picture_edit_new_body">Pokreće novu sesiju, kreiranjem nove, prazne slike.</string>
+    <string name="help_picture_edit_camera_import_subtitle">Import sa Kamere</string>
+    <string name="help_picture_edit_camera_import_body">Pokreće kameru, omogućujući korisniku da slika određenu scenu i importuje dobijenu sliku u sesiju.</string>
+    <string name="help_picture_edit_gallery_import_subtitle">Import iz Galerije</string>
+    <string name="help_picture_edit_gallery_import_body">Pokreće galeriju, omogućujući korisniku da odabere sliku sa telefona.</string>
+    <string name="help_picture_edit_move_subtitle">Pomeranje</string>
+    <string name="help_picture_edit_move_body">Pokretom prsta, trenutno prikazana slika se pomera na novu lokaciju na ekranu.</string>
+    <string name="help_picture_edit_rotate_subtitle">Rotacija</string>
+    <string name="help_picture_edit_rotate_body">Pokretom prsta, trenutno prikazana slika se rotira u odnosu na centar ekrana. Ugao rotacije je određen na osnovu pozicije početnog dodira i centra ekrana.</string>
+    <string name="help_picture_edit_zoom_subtitle">Uveličanje</string>
+    <string name="help_picture_edit_zoom_body">Obavlja operaciju smanjenja/uveličanja slike.</string>
+    <string name="help_picture_edit_pinch_zoom_subtitle">Uveličanje Dodirom</string>
+    <string name="help_picture_edit_pinch_zoom_body">Definiše Uveličanje razmakom između dva prsta pozicionirana na ekranu.</string>
+    <string name="help_picture_tools_title">Alati</string>
+    <string name="help_picture_tools_body">Ova kategorija sadrži alate za crtanje koji se mogu iskoristiti za povećanje upotrebne vrednosti slike.\nParametri kao što su debljina linije, ili boja, mogu se promeniti nakon odabira odgovarajućeg alata.</string>
+    <string name="help_picture_tools_pencil_draw_subtitle">Crtanje</string>
+    <string name="help_picture_tools_pencil_draw_body">Pokretom prsta, izcrtava se linija koja prati poziciju prsta.</string>
+    <string name="help_picture_tools_line_subtitle">Linija</string>
+    <string name="help_picture_tools_line_body">Izcrava liniju između početne i krajnje tačke pokreta.</string>
+    <string name="help_picture_tools_text_subtitle">Tekst</string>
+    <string name="help_picture_tools_text_body">Ubacuje tekst povrh trenutno prikazane slike. Nakon ubacivanja, lokacija teksta se može promeniti jednostavnim prelaskom prsta preko ekrana.</string>
+    <string name="help_picture_tools_shake_subtitle">Crtanje Potresom</string>
+    <string name="help_picture_tools_shake_body">U slučaju da aparat sadrži odgovarajući sensor, akcelerometar, kontinualna linija će biti izcrtana potresom telefona u raznim pravcima.</string>
+    <string name="help_picture_tools_rectangle_subtitle">Pravougaonik</string>
+    <string name="help_picture_tools_rectangle_body">Na osnovu početne i krajnje tačke pokreta načinjenog prstom, izcrtava pravougaonik povrh tekuće slike.</string>
+    <string name="help_picture_tools_circle_subtitle">Krug</string>
+    <string name="help_picture_tools_circle_body">Na osnovu početne i krajnje tačke pokreta načinjenog prstom, izcrtava krug povrh tekuće slike.</string>
+    <string name="help_picture_tools_fill_subtitle">Popunjavanje</string>
+    <string name="help_picture_tools_fill_body">Popunjava ekran selektovanom bojom. Kako bi obojio ekran, korisnik treba samo da dodirne ekran jednom.</string>
+    <string name="help_picture_effects_title">Efekti</string>
+    <string name="help_picture_effects_body">Ova kategorija sadrži skup efekata za promenu celokupnog prikaza slike.</string>
+    <string name="help_picture_effects_grayscale_subtitle">Crno-Bela</string>
+    <string name="help_picture_effects_grayscale_body">Uklanja informaciju o boji iz prikazane slike.</string>
+    <string name="help_picture_effects_saturation_subtitle">Zasićenje</string>
+    <string name="help_picture_effects_saturation_body">Menja nivo zasićenja prikazane slike.</string>
+    <string name="help_picture_effects_transparency_subtitle">Transparentnost</string>
+    <string name="help_picture_effects_transparency_body">Menja nivo transparentnosti prikazane slike.</string>
+    <string name="help_picture_effects_contrast_subtitle">Kontrast</string>
+    <string name="help_picture_effects_contrast_body">Menja nivo kontrasta prikazane slike.</string>
+    <string name="help_picture_effects_brightness_subtitle">Osvetljenje</string>
+    <string name="help_picture_effects_brightness_body">Menja nivo osvetljaja prikazane slike.</string>
+    <string name="help_picture_effects_negative_subtitle">Negativ</string>
+    <string name="help_picture_effects_negative_body">Prikazuje sliku sa invertovanim vrednostima boje.</string>
+    
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Dialog-related dimensions -->
+	<dimen name="dialog_alert_width">300dip</dimen>
+	<dimen name="dialog_alert_height">300dip</dimen>
+	<dimen name="dialog_alert_button_width_half">100dip</dimen>
+	<dimen name="dialog_alert_button_margin">5dip</dimen>
+	<dimen name="dialog_alert_title_margin">5dip</dimen>
+	<dimen name="dialog_alert_icon_margin">6dip</dimen>
+	<dimen name="dialog_alert_message_margin">5dip</dimen>
+	<dimen name="dialog_save_preview_width">150dip</dimen>
+	<dimen name="dialog_save_preview_height">200dip</dimen>
+	
+	<!-- Gallery-related dimensions -->
+	<dimen name="gallery_thumbnail_width">100dip</dimen>
+	<dimen name="gallery_thumbnail_height">70dip</dimen>
+	<dimen name="gallery_button_import_margin">10dip</dimen>
+	
+	<!-- Camera-related dimensions -->
+	<dimen name="camera_button_snapshot_margin">10dip</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item android:id="@+id/menu_item_new_picture"
+  		android:icon="@drawable/ic_menu_new_picture"
+  		android:title="@string/new_picture_short"/>
+  <item android:id="@+id/menu_item_camera"
+  		android:icon="@drawable/ic_menu_camera"
+  		android:title="@string/camera"/>
+  <item android:id="@+id/menu_item_gallery"
+  		android:icon="@drawable/ic_menu_gallery"
+  		android:title="@string/gallery"/>
+  <item android:id="@+id/menu_item_about"
+  		android:icon="@drawable/ic_menu_info"
+  		android:title="@string/about"/>
+  <item android:id="@+id/menu_item_help"
+  		android:icon="@drawable/ic_menu_help"
+  		android:title="@string/help"/>
+  <item android:id="@+id/menu_item_quit"
+  		android:icon="@drawable/ic_menu_quit"
+  		android:title="@string/quit"/>
+</menu>

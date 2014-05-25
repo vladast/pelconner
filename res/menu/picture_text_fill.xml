@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:background="#dadada">
+	<item android:id="@+id/menu_picture_item_color"
+		android:icon="@drawable/ic_menu_color"
+		android:title="@string/picture_color"/>	
+	<item android:id="@+id/menu_picture_item_cancel"
+		android:icon="@drawable/ic_button_decline"
+		android:title="@string/picture_cancel"/>
+	<item android:id="@+id/menu_picture_item_done"
+		android:icon="@drawable/ic_button_accept"
+		android:title="@string/picture_done"/>
+</menu>

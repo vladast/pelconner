@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">Pelconner</string>
+    <string name="app_description">Image editing application</string>
+    <string name="new_picture_short">New</string>
+    <string name="new_picture">New Picture</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="info">Info</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="quit">Quit</string>
+    
+    <!-- Generic Alert Dialog -->
+    <string name="dialog_title_default">Not Set</string>
+    <string name="dialog_title_shutdown">Shutdown</string>
+    <string name="dialog_title_nosdcard">No Media</string>
+    <string name="dialog_text_default">Not Set</string>
+    <string name="dialog_text_shutdown">Are you sure?</string>
+    <string name="dialog_text_nosdcard">The application requires an SD card to be present. Pelconner will exit.</string>
+    
+    <!-- Camera Snapshot Dialog -->
+    <string name="dialog_camera_title">Snapshot</string>
+    <string name="dialog_camera_button_import">Import</string>
+    <string name="dialog_camera_button_save">Save...</string>
+    <string name="dialog_camera_button_share">Share</string>
+    <string name="dialog_camera_button_cancel">Cancel</string>
+    
+    <!-- Save/Share Dialog -->
+    <string name="dialog_save_description">Saved from Pelconner</string>
+    <string name="dialog_share_description">Shared from Pelconner</string>
+    <string name="dialog_save_name_title">Name:</string>
+    <string name="dialog_save_description_title">Description:</string>
+    <string name="dialog_save_prompt">Select Image Format</string>
+    
+    <!-- About dialog -->
+    <string name="about_version_text">Version</string>
+    <string name="about_year">on March of 2011</string>
+    <string name="about_license">Brought to you by Vladast</string>
+    
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_import">Import</string>
+    <string name="button_close">Close</string>
+    
+    <!-- Text dialog -->
+    <string name="dialog_text_title">Text</string>
+    <string name="dialog_text_text">Text:</string>
+    <string name="dialog_text_font">Font:</string>
+    <string-array name="dialog_text_fonts">        
+    	<item>Chopin Script</item>
+    	<item>Old Standard TT</item>
+    	<item>Precious</item>
+    	<item>Royal</item>
+    	<item>Wickhop Handwriting</item>
+    </string-array>     
+    <string name="dialog_text_size">Text size:</string>
+    <string-array name="dialog_text_sizes">        
+    	<item>5</item>
+    	<item>10</item>
+    	<item>15</item>
+    	<item>20</item>
+    	<item>25</item>
+    	<item>30</item>
+    </string-array> 
+    <string name="dialog_text_style">Text style:</string>
+    <string-array name="dialog_text_styles">        
+    	<item>Normal</item>
+    	<item>Bold</item>
+    	<item>Italic</item>
+    	<item>Bold-Italic</item>
+        <!-- CHECK THIS -->
+    </string-array> 
+    
+    <!-- Color dialog -->
+    <string name="dialog_color_title">Pick a Color</string>
+    <string name="dialog_color_volume">Value:</string>
+    <string name="dialog_color_alpha">Transparency / Alpha</string>
+    
+    <!-- Picture Menu -->
+    <string name="effects">Effects</string>
+    <string name="tools">Tools</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="more">More</string>
+    
+    <!-- Partial Menus -->
+    <string name="picture_done">Done</string>
+    <string name="picture_cancel">Cancel</string>
+    <string name="picture_color">Color</string>
+    <string name="picture_width">Line Width</string>
+    <string name="picture_filled">Filled</string>
+    <string name="picture_outlined">Outlined</string>
+    <string name="picture_zoom">Set Zoom</string>
+    <string name="picture_angle">Set Angle</string>
+    <string name="picture_text">Set Text</string>
+    
+    <!-- Picture Edit Options -->
+    <string name="import_picture">Import</string>
+    <string name="import_picture_camera">Import from Camera</string>
+    <string name="import_picture_gallery">Import from Gallery</string>
+    <string name="edit_resize">Resize</string>
+    <string name="edit_stretch">Stretch</string>
+    <string name="edit_zoom">Zoom</string>
+    <string name="edit_pinch_zoom">Pinch Zoom</string>
+    <string name="edit_rotate">Rotate</string>
+    <string name="edit_move">Move</string>
+    <string name="edit_crop">Crop</string>
+    <string name="edit_text">Text</string>
+    
+    <!-- Picture Tools Options -->
+    <string name="tools_fill">Fill</string>
+    <string name="tools_rectangle_select">Rectangular Selection</string>
+    <string name="tools_circle_select">Circular Selection</string>
+    <string name="tools_draw">Pencil Draw</string>
+    <string name="tools_text">Text</string>
+    <string name="tools_rectangle">Rectangle</string>
+    <string name="tools_ellipse">Ellipse</string>
+    <string name="tools_circle">Circle</string>
+    <string name="tools_line">Line</string>
+    <string name="tools_shake_draw">Shake Draw</string>
+    <string name="tools_color_test">COLOR TEST</string>
+    
+    <!-- Picture Advanced Tools -->
+    <string name="tools_adv_color">Color</string>
+    <string name="tools_adv_filled_shape">Filled Shape</string>
+    <string name="tools_adv_outlined_shape">Outlined Shape</string>
+    
+    <!-- Picture Effects Options -->
+    <string name="effects_transparency">Transparency</string>
+    <string name="effects_noise">Noise</string>
+    <string name="effects_grayscale">Grayscale</string>
+    <string name="effects_black_and_white">Black and White</string>    
+    <string name="effects_saturation">Saturation</string>
+    <string name="effects_contrast">Contrast</string>
+    <string name="effects_brightness">Brightness</string>
+    <string name="effects_negative">Negative</string>
+    
+    <!-- Gallery Menu -->
+    <string name="gallery_import">Import</string>
+    <string name="gallery_share">Share</string>
+    <string name="gallery_cancel">Cancel</string>
+    <string name="gallery_help">Help</string>
+    
+    <!-- Camera Menu -->
+    <string name="camera_snapshot">Take Snapshot</string>
+    <string name="camera_help">Help</string>
+    <string name="camera_cancel">Cancel</string>
+    
+    <!-- Save Picture -->
+    <string name="save_picture_title">Save Picture As...</string>
+    <string name="save_picture_name_seed">Pelconner_</string>
+    <string name="save_picture_name">Name:</string>
+    <string name="save_picture_height">Height:</string>
+    <string name="save_picture_width">Width:</string>
+    <string name="save_picture_location">Save Location Data</string>
+    <string name="save_picture_format">Format:</string>
+    <string name="save_picture_button_save">Save</string>
+    <string name="save_picture_button_cancel">Cancel</string>
+    <string-array name="save_picture_formats">        
+    	<item>JPEG</item>
+    	<!-- <item>BMP</item> -->
+    	<item>PNG</item>
+    <item/>
+    </string-array>    
+    
+    <!-- Content Value Defaults -->
+    <string name="media_description">Captured by Pelconner.</string>
+    
+    <!-- Sharing -->
+    <string name="share_image">Share Image with...</string>
+    
+    <!-- Camera -->
+    <string name="camera_unavailable">Failed to connect to Camera service.\nCheck if camera service is available.</string>
+    
+    <!-- Help Main -->
+    <string name="help_main_pelconner_overview_title">Pelconner overview</string>
+    <string name="help_main_pelconner_overview_body">Pelconner can be used as a simple drawing application, but can be used as a tool for advanced image processing operations.\nYou can use Pelconner to create new images from scratch, or you can edit the ones already in your phone.\nAdditionally, Pelconner can be used to edit the images captured by embedded camera.\nCreated images can be saved on the external memory, or shared with other applications on the phone, such as mail client, or any social networking application.</string>
+    <string name="help_main_main_display_title">Main Display</string>
+    <string name="help_main_main_display_body">Main Display enables user to quickly choose desired action.\nThus, it offers three options to the user:\n1. Create a new picture from scratch,\n2. Capture an image with Camera and use it as a starting point for new picture,\n3. Select an image from Gallery and use it as a starting point for new picture.</string>
+    <string name="help_main_picture_display_title">Picture Display</string>
+    <string name="help_main_picture_display_body">Picture Display is a central point of the Pelconner.\nAll available options are divided into three categories:\n1. Edit, containing general set of operations,\n2. Tools, containing various drawing tools,\n3. Effects, containing a set of effects.</string>
+    <string name="help_main_camera_display_title">Camera Display</string>
+    <string name="help_main_camera_display_body">Sole purpose of Camera Display is to capture a photo that can be imported for processing.\nHowever, taken picture can be shared with other image processing applications that are present on the phone.</string>
+    <string name="help_main_gallery_display_title">Gallery Display</string>
+    <string name="help_main_gallery_display_body">Gallery Display represents a key place to overview created pictures.\nAs with Camera Display, a user can also user Gallery to import already created pictures and share them with other applications.</string>
+    
+    <!-- Help Picture -->
+    <string name="help_picture_edit_title">Edit</string>
+    <string name="help_picture_edit_body">This category contains general set of options used to perform picture-wise operations.</string>
+    <string name="help_picture_edit_new_subtitle">New Picture</string>
+    <string name="help_picture_edit_new_body">Starts new session, creating new, empty image.</string>
+    <string name="help_picture_edit_camera_import_subtitle">Import from Camera</string>
+    <string name="help_picture_edit_camera_import_body">Starts Camera display, enabling the user to take a snapshot and import the image in current session.</string>
+    <string name="help_picture_edit_gallery_import_subtitle">Import from Gallery</string>
+    <string name="help_picture_edit_gallery_import_body">Starts Gallery display, enabling the user to select a picture from the phone.</string>
+    <string name="help_picture_edit_move_subtitle">Move</string>
+    <string name="help_picture_edit_move_body">By sliding the finger, currently displayed image is moved to new location on the screen.</string>
+    <string name="help_picture_edit_rotate_subtitle">Rotate</string>
+    <string name="help_picture_edit_rotate_body">By sliding the finger, currently displayed image is rotated against the center of the screen. Angle is based upon the position of the initial touch and the center of the screen.</string>
+    <string name="help_picture_edit_zoom_subtitle">Zoom</string>
+    <string name="help_picture_edit_zoom_body">Performs Zoom-In/Zoom-Out operation on the image.</string>
+    <string name="help_picture_edit_pinch_zoom_subtitle">Pinch Zoom</string>
+    <string name="help_picture_edit_pinch_zoom_body">Defines the Zoom by the distance between two fingers positioned on the screen.</string>
+    <string name="help_picture_tools_title">Tools</string>
+    <string name="help_picture_tools_body">This category contains various drawing tools that can be used to enhance the usage value of the picture.\nParameters such line width, or color, can be changed after particular tool is selected.</string>
+    <string name="help_picture_tools_pencil_draw_subtitle">Pencil Draw</string>
+    <string name="help_picture_tools_pencil_draw_body">By sliding the finger against the screen, draws a line following the finger location.</string>
+    <string name="help_picture_tools_line_subtitle">Line</string>
+    <string name="help_picture_tools_line_body">Draws a line between the starting and ending point of the finger slide.</string>
+    <string name="help_picture_tools_text_subtitle">Text</string>
+    <string name="help_picture_tools_text_body">Inserts a created text on the top of the currently displayed picture. When inserted, a location of the text can be changed, by sliding the finger on the screen.</string>
+    <string name="help_picture_tools_shake_subtitle">Shake Draw</string>
+    <string name="help_picture_tools_shake_body">In the case that phone contains appropriate sensor, accelerator, a continuous line is being drawn by shaking the phone in various directions.</string>
+    <string name="help_picture_tools_rectangle_subtitle">Rectangle</string>
+    <string name="help_picture_tools_rectangle_body">Based upon the starting and ending point of the performed slide action, a rectangle is being drawn on the top of the displayed picture.</string>
+    <string name="help_picture_tools_circle_subtitle">Circle</string>
+    <string name="help_picture_tools_circle_body">Based upon the starting and ending point of the performed slide action, a circle is being drawn on the top of the displayed picture.</string>
+    <string name="help_picture_tools_fill_subtitle">Fill</string>
+    <string name="help_picture_tools_fill_body">Fills a screen with selected color. To fill, user only needs to touch the screen once.</string>
+    <string name="help_picture_effects_title">Effects</string>
+    <string name="help_picture_effects_body">This category contains a set of effects used to change the general appearance.</string>
+    <string name="help_picture_effects_grayscale_subtitle">Grayscale</string>
+    <string name="help_picture_effects_grayscale_body">Removes the color information from the displayed picture.</string>
+    <string name="help_picture_effects_saturation_subtitle">Saturation</string>
+    <string name="help_picture_effects_saturation_body">Changes the saturation level of the displayed picture.</string>
+    <string name="help_picture_effects_transparency_subtitle">Transparency</string>
+    <string name="help_picture_effects_transparency_body">Changes the transparency level of the displayed picture.</string>
+    <string name="help_picture_effects_contrast_subtitle">Contrast</string>
+    <string name="help_picture_effects_contrast_body">Changes the contrast level of the displayed picture.</string>
+    <string name="help_picture_effects_brightness_subtitle">Brightness</string>
+    <string name="help_picture_effects_brightness_body">Changes the brightness level of the displayed picture.</string>
+    <string name="help_picture_effects_negative_subtitle">Negative</string>
+    <string name="help_picture_effects_negative_body">Displays the picture\'s negative representation.</string>
+    
+    
+</resources>
