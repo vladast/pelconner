@@ -19,6 +19,7 @@ import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.hardware.Camera;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Display;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
@@ -488,11 +489,12 @@ public class PelconnerCameraActivity extends PelconnerActivity implements OnDism
 	@Override
 	public void surfaceCreated(SurfaceHolder surfaceHolder) {
 		
+		Log.d(TAG, String.format("Number of cameras: %d", Camera.getNumberOfCameras()));
+		
 		// Try to open the Camera
 		try
 		{
-			int numOfCams = Camera.getNumberOfCameras();
-			_camera = Camera.open();
+			_camera = Camera.open(0);
 			if(_camera == null) {
 	    		Toast.makeText(this, R.string.camera_unavailable, Toast.LENGTH_LONG).show();
 	    		setResult(RESULT_CANCELED);
