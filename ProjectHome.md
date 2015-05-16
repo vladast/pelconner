@@ -1,0 +1,2 @@
+Android application offering great number of drawing and image processing options.
+Among others, user can perform free-hand drawing, draw a filled or outlined shapes, share its images with other applications, etc.
