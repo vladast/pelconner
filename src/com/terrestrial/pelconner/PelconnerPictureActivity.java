@@ -1923,7 +1923,7 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
 		float distance, dx, dy;
 		dx = motionEvent.getX(0) - motionEvent.getX(1);
 		dy = motionEvent.getY(0) - motionEvent.getY(1);
-		distance = FloatMath.sqrt(((float)Math.pow(dx, 2) + (float)Math.pow(dy, 2)));
+		distance = (float) Math.sqrt(((float)Math.pow(dx, 2) + (float)Math.pow(dy, 2)));
 		return distance;
 	}
 	
