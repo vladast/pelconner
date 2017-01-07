@@ -45,6 +45,8 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
+import android.os.Vibrator;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.util.AttributeSet;
@@ -71,8 +73,10 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Toast;
 import android.widget.ZoomButton;
 
-public class PelconnerPictureActivity extends PelconnerActivity implements OnDismissListener, OnTouchListener, SensorEventListener, OnSeekBarChangeListener, OnClickListener {
-	
+public class PelconnerPictureActivity extends PelconnerActivity
+		implements OnDismissListener, OnTouchListener, SensorEventListener, OnSeekBarChangeListener,
+		OnClickListener, View.OnLongClickListener {
+
 	//protected String TAG = "PelconnerPictureActivity";
 	private final int ID_DIALOG_PROCESSING = 110;
 	
@@ -139,9 +143,20 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
 	Thread threadProcessing = null;
 	Runnable _runnableToggleDialog = null;
 	boolean _blockSeekBar = false;
+
+	private AsyncTask<Void, Void, Void> mOptionsMenuDisplayAsyncTask = null;
+	static Object sOptionMenuDisplayCountdownLock = new Object();
+	static boolean sOptionMenuDisplayCountdownOn = false;
+	private Vibrator mVibrator = null;
 	
 	private Handler _handlerProcessing = null;
-	
+
+	@Override
+	public boolean onLongClick(View view) {
+		openOptionsMenu();
+		return false;
+	}
+
 	private enum ActionType
 	{
 		NONE,
@@ -1191,6 +1206,8 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
             } 
         }, 1000);
         */
+
+		mVibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
 	}
 
 	/* (non-Javadoc)
@@ -1933,11 +1950,11 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
 		float y = motionEvent.getX(0) + motionEvent.getY(1);
 		return new PointF(x / 2, y / 2);
 	}
-	
+
 	@Override
 	public boolean onTouch(View arg0, MotionEvent motionEvent) 
 	{
-		//Log.d("MOTION", "Event: " + motionEvent.getAction());
+		Log.d("MOTION", "Event: " + motionEvent.getAction());
 		
 		//_paint = new Paint();
 		//paint.setColor(Color.TRANSPARENT);
@@ -1946,10 +1963,16 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
 		//_paint.setAlpha(0);
 		//_paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
 		//_paint.setAntiAlias(true);
-		
+
+		/*
 		if(_selectedAction == Availables.NONE)
-			return false;
-		
+			return true;
+		*/
+
+		if (mOptionsMenuDisplayAsyncTask != null && !mOptionsMenuDisplayAsyncTask.isCancelled()) {
+			mOptionsMenuDisplayAsyncTask.cancel(true);
+		}
+
 		int action = motionEvent.getAction();
 		switch(action)
 		{
@@ -1965,7 +1988,28 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
 				Canvas canvas = new Canvas(_bitmapModified);
 				canvas.drawColor(_pelconnerBitmapModifier.getColor());
 			}
-			
+
+			mOptionsMenuDisplayAsyncTask = new AsyncTask<Void, Void, Void>() {
+				@Override
+				protected Void doInBackground(Void... voids) {
+					try {
+						Thread.sleep(1000);
+						mVibrator.vibrate(50);
+						PelconnerPictureActivity.this.runOnUiThread(new Runnable() {
+							public void run() {
+								openOptionsMenu();
+							}
+						});
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					return null;
+				}
+			};
+
+			//mOptionsMenuDisplayAsyncTask = new OptionsMenuDisplayAsyncTask(this);
+			mOptionsMenuDisplayAsyncTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, null);
+
 			break;
 		case MotionEvent.ACTION_POINTER_2_DOWN:
 			_startDistance = getDistanceBetweenTouches(motionEvent);
@@ -2213,7 +2257,7 @@ public class PelconnerPictureActivity extends PelconnerActivity implements OnDis
 		case MotionEvent.ACTION_UP:
 			_upX = motionEvent.getX();
 			_upY = motionEvent.getY();
-			
+
 			if(_selectedAction == Availables.EDIT_MOVE || _selectedAction == Availables.EDIT_ROTATE)
 			{
 				/*
