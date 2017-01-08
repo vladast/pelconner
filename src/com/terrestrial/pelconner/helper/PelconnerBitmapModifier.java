@@ -1277,15 +1277,14 @@ public class PelconnerBitmapModifier
 				_canvas.drawBitmap(_bitmapInitial, _matrix, _paint);
 				break;
 			case EFFECTS_TRANSPARENCY:
-				float transparency = (downX / 100F) * 255;//(100F - downX) / 100F;//logValue(0, 100, downX);
+				float transparency = (downX / 100F);// * 255;//(100F - downX) / 100F;//logValue(0, 100, downX);
 				_matrix.reset();
 				_colorMatrix = new ColorMatrix();
 				_colorMatrix.set(new float[]{
-						1, 0, 0, 0, 0,
-						0, 1, 0, 0, 0,
-						0, 0, 1, 0, 0,
-						0, 0, 0, 0.5F, 0
-						// menjanjem cele alpha kolone, dolazi do nekih efekata, ali nista znacajno.
+						1, 0, 0, transparency, 0,
+						0, 1, 0, transparency, 0,
+						0, 0, 1, transparency, 0,
+						0, 0, 0, transparency, 0
 				});
 				//_paint.reset();
 				//_paint.setColorFilter(new ColorMatrixColorFilter(_colorMatrix));
@@ -1309,6 +1308,9 @@ public class PelconnerBitmapModifier
 				
 				//_paint.setAlpha((int) Math.floor(transparency));
 				//_paint.setARGB(30, 200, 0, 0);
+
+				_paint.setColorFilter(new ColorMatrixColorFilter(_colorMatrix));
+				_canvas.drawColor(Color.TRANSPARENT);
 				_canvas.drawBitmap(_bitmapInitial, _matrix, _paint);			
 				
 				break;

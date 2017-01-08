@@ -2672,7 +2672,7 @@ public class PelconnerPictureActivity extends PelconnerActivity
 			}
 			else
 			{
-				if(_selectedAction == Availables.EFFECTS_TRANSPARENCY)
+				if(false && _selectedAction == Availables.EFFECTS_TRANSPARENCY)
 				{
 					/*
 					_imageViewPicturePreview.setImageBitmap(_bitmapBackground);
@@ -2680,8 +2680,9 @@ public class PelconnerPictureActivity extends PelconnerActivity
 					*/
 					
 					//Log.d("ANGLE", "Angle = " + progress);
-					
-					Bitmap currentBitmap = _bitmapFinal.copy(_bitmapFinal.getConfig(), false);
+
+					//Bitmap currentBitmap = _bitmapFinal.copy(_bitmapFinal.getConfig(), false);
+                    Bitmap currentBitmap = _bitmapModified.copy(_bitmapModified.getConfig(), true);
 					//_bitmapModified = Bitmap.createBitmap(_bitmapModified.getWidth(), _bitmapModified.getHeight(), Config.ARGB_8888);
 					
 					//_bitmapModified.recycle();
@@ -2695,7 +2696,7 @@ public class PelconnerPictureActivity extends PelconnerActivity
 						changeBitmapModified(Bitmap.createBitmap(_bitmapModified.getWidth(), _bitmapModified.getHeight(), Config.ARGB_4444));
 					}
 						
-					Canvas canvas = new Canvas(_bitmapModified);
+					Canvas canvas = new Canvas(currentBitmap);
 					canvas.drawColor(Color.TRANSPARENT);
 					Paint paint = new Paint();
 					
